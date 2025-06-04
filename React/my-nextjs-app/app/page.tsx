@@ -2,6 +2,7 @@ import Image from "next/image";
 import MyFirst from "./myfirst";
 import About from "./about";
 import Square from "@/components/square";
+import TwoButtons from "@/components/twobuttons";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <h1>Hello World from Next.js!</h1>
         <MyFirst />
         <About />
+        <TwoButtons />
         <Square size={100} />
         <Square size={200} />
 
