@@ -10,3 +10,9 @@ DotNet/OOPDemo/bin/
 DotNet/OOPDemo/obj/
 DotNet/LINQDemo/bin/
 DotNet/LINQDemo/obj/
+/DotNet/AspNetMvcDemo1/.vscode
+/DotNet/AspNetMvcDemo1/bin/Debug/net9.0
+/DotNet/AspNetMvcDemo1/obj
+/DotNet/AspNetMvcDemo2/.vs/AspNetMvcDemo2
+/DotNet/AspNetMvcDemo2/AspNetMvcDemo2/bin/Debug/net9.0
+/DotNet/AspNetMvcDemo2/AspNetMvcDemo2/obj
