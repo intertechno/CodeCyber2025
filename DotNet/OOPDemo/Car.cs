@@ -1,10 +1,10 @@
-class Car
+public class Car
 {
     // properties
     public string Model { get; init; } = "";
     public string Make { get; init; } = "";
-    public int CurrentSpeed { get; set; }
-    public bool EngineRunning { get; set; }
+    private int CurrentSpeed { get; set; }
+    private bool EngineRunning { get; set; }
 
     // methods
     public void StartEngine()

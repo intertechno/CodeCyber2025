@@ -15,3 +15,11 @@ Car myCar = new()
     Make = "Toyota",
     Model = "Camry"
 };
+myCar.StartEngine();
+myCar.Accelerate(20);
+
+Car neighborCar = new()
+{
+    Make = "Nissan",
+    Model = "Altima"
+};
