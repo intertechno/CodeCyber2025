@@ -22,3 +22,24 @@ while (reader.Read())
 }
 
 Console.WriteLine("Query executed successfully.");
+
+// ---
+Console.WriteLine();
+Console.WriteLine("Please enter a product name:");
+string productName = Console.ReadLine() ?? "";
+
+sql = "SELECT UnitPrice FROM Products " +
+      "WHERE ProductName = $ProductName";
+
+// execute the SQL query and display the price
+using SQLiteCommand priceCommand = new(sql, connection);
+priceCommand.Parameters.AddWithValue("$ProductName", productName);
+using SQLiteDataReader priceReader = priceCommand.ExecuteReader();
+if (priceReader.Read())
+{
+    Console.WriteLine($"The price of {productName} is {priceReader["UnitPrice"]}");
+}
+else
+{
+    Console.WriteLine($"Product {productName} not found.");
+}
