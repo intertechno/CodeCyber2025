@@ -16,3 +16,5 @@ DotNet/LINQDemo/obj/
 /DotNet/AspNetMvcDemo2/.vs/AspNetMvcDemo2
 /DotNet/AspNetMvcDemo2/AspNetMvcDemo2/bin/Debug/net9.0
 /DotNet/AspNetMvcDemo2/AspNetMvcDemo2/obj
+DotNet/SQLiteDemo/bin/
+DotNet/SQLiteDemo/obj
