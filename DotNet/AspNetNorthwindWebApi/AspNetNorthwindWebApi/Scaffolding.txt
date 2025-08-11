@@ -1,0 +1,4 @@
+Scaffolding instructions
+------------------------
+
+Scaffold-DbContext "Server=CUPRITE\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;Encrypt=false;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities
