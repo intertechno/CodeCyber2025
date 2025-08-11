@@ -24,3 +24,6 @@ DotNet/EfDemo1/obj
 /DotNet/EfDemo2/.vs/EfDemo2
 /DotNet/EfDemo2/EfDemo2/bin/Debug/net9.0
 /DotNet/EfDemo2/EfDemo2/obj
+/AspNetWebApiDemo1/.vscode
+/AspNetWebApiDemo1/bin/Debug/net9.0
+/AspNetWebApiDemo1/obj
