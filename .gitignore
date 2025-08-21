@@ -34,3 +34,7 @@ DotNet/EfDemo1/obj
 /DotNet/AspNetWebApiDemo1/.vscode
 /DotNet/AspNetWebApiDemo1/bin/Debug/net9.0
 /DotNet/AspNetWebApiDemo1/obj
+/DotNet/AspNetNorthwindWebApi/.vs/ProjectEvaluation
+/DotNet/AzureKeyVaultReadingDemo/.vs/AzureKeyVaultReadingDemo
+/DotNet/AzureKeyVaultReadingDemo/AzureKeyVaultReadingDemo/bin/Debug/net9.0
+/DotNet/AzureKeyVaultReadingDemo/AzureKeyVaultReadingDemo/obj
