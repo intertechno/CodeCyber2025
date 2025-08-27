@@ -1,7 +1,10 @@
+numbers = []
+print("Please enter a number between 1 and 99:")
+user_input = input()
+user_number = int(user_input)
+numbers.append(user_number)
 
-numbers = [5, 23, 33, 17, 3, 15]
 freq = {}
-
 for n in numbers:
     bracket = n // 10 * 10
     bracket_str = f"{bracket}-{bracket + 9}"
