@@ -1,8 +1,12 @@
 numbers = []
-print("Please enter a number between 1 and 99:")
-user_input = input()
-user_number = int(user_input)
-numbers.append(user_number)
+
+while True:
+    print("Please enter a number between 1 and 99 (use 0 to stop):")
+    user_input = input()
+    user_number = int(user_input)
+    if user_number == 0:
+        break
+    numbers.append(user_number)
 
 freq = {}
 for n in numbers:
@@ -13,8 +17,10 @@ for n in numbers:
     else:
         freq[bracket_str] += 1
 
-    print(f"Number {n} is in the bracket {bracket_str}")
+    # print(f"Number {n} is in the bracket {bracket_str}")
     # print("Number ", n, " is in the bracket ", bracket_str)
 
 print("------------------")
-print(freq)
+for key in sorted(freq.keys()):
+    count = freq[key]
+    print(f"Bracket {key}: {count}")
